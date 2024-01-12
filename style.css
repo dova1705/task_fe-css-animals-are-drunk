@@ -1,4 +1,39 @@
-img {
-  height: 400px;
-
+.headline{
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.subheader{
+  font-style: italic;
+  text-align: center;
+  font-size: 25px;
+}
+#panda{
+  width: 350px;
+}
+.intro{
+  background-color: lightgray;
+  padding: 30px;
+}
+.main-text{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: lightcoral;
+  margin: 20px;
+}
+.bold-idea{
+  margin: 20px;
+  font-weight: bold;
+}
+/* как применить стиль сразу к нескольким классам */
+.intro, .main-text, .bold-idea{
+  margin-left: 30px;
+}
+footer{
+  background-color: aquamarine;
+  padding: 15px 0;
+}
+.footer-element{
+  text-align: center;
+  color: blueviolet;
+  margin: 15px 0;
 }
